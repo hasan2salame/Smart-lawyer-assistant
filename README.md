@@ -1,1 +1,0 @@
-# Smart-lawyer-s-assistant 
