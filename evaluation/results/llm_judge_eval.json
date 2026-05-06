@@ -1,0 +1,93 @@
+{
+  "total_questions": 8,
+  "judge_model": "llama-3.3-70b-versatile",
+  "scores": [
+    {
+      "accuracy": 8,
+      "completeness": 7,
+      "no_hallucination": 9,
+      "clarity": 8,
+      "overall": 8,
+      "comment": "الإجابة دقيقة إلى حد كبير، لكنها لم تغط جميع جوانب السؤال الرئيسية بشكل كامل",
+      "avg": 8.0,
+      "question": "ما هي شروط الحضانة وأسباب سقوطها في القانون السوري؟"
+    },
+    {
+      "accuracy": 8,
+      "completeness": 8,
+      "no_hallucination": 9,
+      "clarity": 8,
+      "overall": 8,
+      "comment": "الإجابة دقيقة ومكتملة إلى حد كبير، مع تجنب المعلومات غير موجودة في السياق",
+      "avg": 8.2,
+      "question": "ما إجراءات تبليغ المدعى عليه في دعوى الأحوال الشخصية؟"
+    },
+    {
+      "accuracy": 8,
+      "completeness": 8,
+      "no_hallucination": 9,
+      "clarity": 9,
+      "overall": 8.5,
+      "comment": "الإجابة دقيقة ومكتملة مع وضوح مناسب، لكنها قد تحتاج إلى بعض التفاصيل الإضافية من السياق",
+      "avg": 8.5,
+      "question": "متى تسقط نفقة الزوجة؟"
+    },
+    {
+      "accuracy": 9,
+      "completeness": 8,
+      "no_hallucination": 9,
+      "clarity": 8,
+      "overall": 8.5,
+      "comment": "الإجابة دقيقة ومفهومة، لكنها لم تغط جميع التفاصيل المتعلقة بشروط الطلاق الخلعي",
+      "avg": 8.5,
+      "question": "ما شروط الطلاق الخلعي؟"
+    },
+    {
+      "accuracy": 9,
+      "completeness": 8,
+      "no_hallucination": 9,
+      "clarity": 8,
+      "overall": 8.5,
+      "comment": "الإجابة دقيقة ومكتملة إلى حد كبير، مع تجنب المعلومات غير موجودة في السياق",
+      "avg": 8.5,
+      "question": "كيف يثبت النسب أمام المحكمة؟"
+    },
+    {
+      "accuracy": 8,
+      "completeness": 6,
+      "no_hallucination": 9,
+      "clarity": 8,
+      "overall": 7.75,
+      "comment": "الإجابة دقيقة فيما يتعلق بالسياق المقدم، ولكنها لم تغط جميع الجوانب المتعلقة بحق الزوجة في السكن بعد الطلاق",
+      "avg": 7.8,
+      "question": "ما حق الزوجة في السكن بعد الطلاق؟"
+    },
+    {
+      "accuracy": 8,
+      "completeness": 9,
+      "no_hallucination": 9,
+      "clarity": 8,
+      "overall": 8.5,
+      "comment": "الإجابة دقيقة ومكتملة، ولكن يمكن تحسين الوضوح قليلا",
+      "avg": 8.5,
+      "question": "ما مدة الاستئناف على أحكام محكمة الأحوال الشخصية؟"
+    },
+    {
+      "accuracy": 8,
+      "completeness": 8,
+      "no_hallucination": 9,
+      "clarity": 9,
+      "overall": 8.5,
+      "comment": "الإجابة دقيقة ومفهومة، لكنها قد تحتاج إلى بعض التفاصيل الإضافية",
+      "avg": 8.5,
+      "question": "ما شروط صحة عقد الزواج في القانون السوري؟"
+    }
+  ],
+  "summary": {
+    "accuracy": 8.2,
+    "completeness": 7.8,
+    "no_hallucination": 9.0,
+    "clarity": 8.2
+  },
+  "overall_avg": 8.3
+}
