@@ -1,0 +1,68 @@
+{
+  "test_size": 40,
+  "ablation": {
+    "Dense only": {
+      "Recall@1": 8.6,
+      "Recall@3": 20.0,
+      "Recall@6": 28.6,
+      "Recall@10": 37.1,
+      "avg_ms": 2316.0
+    },
+    "BM25 only": {
+      "Recall@1": 2.9,
+      "Recall@3": 5.7,
+      "Recall@6": 14.3,
+      "Recall@10": 25.7,
+      "avg_ms": 3.5
+    },
+    "Dense+BM25+RRF": {
+      "Recall@1": 5.7,
+      "Recall@3": 8.6,
+      "Recall@6": 28.6,
+      "Recall@10": 40.0,
+      "avg_ms": 1725.2
+    },
+    "RRF+Graph": {
+      "Recall@1": 5.7,
+      "Recall@3": 8.6,
+      "Recall@6": 28.6,
+      "Recall@10": 40.0,
+      "avg_ms": 1868.2
+    }
+  },
+  "per_topic": {
+    "custody": {
+      "hits": 1,
+      "total": 5
+    },
+    "divorce": {
+      "hits": 4,
+      "total": 5
+    },
+    "maintenance": {
+      "hits": 1,
+      "total": 5
+    },
+    "marriage": {
+      "hits": 1,
+      "total": 5
+    },
+    "lineage": {
+      "hits": 1,
+      "total": 5
+    },
+    "inheritance": {
+      "hits": 1,
+      "total": 5
+    },
+    "procedure": {
+      "hits": 1,
+      "total": 5
+    }
+  },
+  "out_of_scope": {
+    "rejected": 5,
+    "total": 5,
+    "rate": 100.0
+  }
+}

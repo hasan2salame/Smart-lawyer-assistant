@@ -1,0 +1,116 @@
+{
+  "total": 40,
+  "correct": 32,
+  "accuracy": 80.0,
+  "elapsed_ms": 168815.0,
+  "rules_resolved": 4,
+  "llm_resolved": 36,
+  "by_difficulty": {
+    "easy": {
+      "correct": 7,
+      "total": 9,
+      "pct": 77.8
+    },
+    "medium": {
+      "correct": 15,
+      "total": 17,
+      "pct": 88.2
+    },
+    "hard": {
+      "correct": 10,
+      "total": 14,
+      "pct": 71.4
+    }
+  },
+  "errors": [
+    {
+      "query": "ما هو قانون العقوبات السوري؟",
+      "expected": [
+        "CHAT"
+      ],
+      "actual": [
+        "LEGAL_Q"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "بدي دعوى نفقة زوجة",
+      "expected": [
+        "TEMPLATE"
+      ],
+      "actual": [
+        "TEMPLATE",
+        "ATTACHMENT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "بدي أرفع دعوى إسقاط حضانة",
+      "expected": [
+        "TEMPLATE"
+      ],
+      "actual": [
+        "TEMPLATE",
+        "ATTACHMENT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "لوين بروح إذا بدي أرفع دعوى طلاق؟",
+      "expected": [
+        "TEMPLATE"
+      ],
+      "actual": [
+        "LEGAL_Q",
+        "TEMPLATE"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "اكتبلي حجة وصاية على قاصر",
+      "expected": [
+        "TEMPLATE"
+      ],
+      "actual": [
+        "TEMPLATE",
+        "ATTACHMENT"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "query": "بدي استدعاء مشاهدة أطفال",
+      "expected": [
+        "TEMPLATE"
+      ],
+      "actual": [
+        "TEMPLATE",
+        "LEGAL_Q"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "query": "ما هي وثائق دعوى الطلاق الخلعي؟",
+      "expected": [
+        "ATTACHMENT"
+      ],
+      "actual": [
+        "LEGAL_Q",
+        "ATTACHMENT"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "query": "بدي صياغة دعوى نفقة وخبرني شروطها قانونياً",
+      "expected": [
+        "TEMPLATE",
+        "LEGAL_Q"
+      ],
+      "actual": [
+        "TEMPLATE",
+        "LEGAL_Q",
+        "ATTACHMENT"
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

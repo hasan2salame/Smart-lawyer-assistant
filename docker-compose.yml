@@ -1,0 +1,17 @@
+# docker-compose.yml
+# تشغيل المساعد القانوني بأمر واحد: docker compose up
+
+services:
+  app:
+    build: .
+    container_name: syrian-legal-assistant
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      # حفظ قاعدة البيانات خارج الـ container
+      - ./sessions.db:/app/sessions.db
+      # مجلد البيانات المعالجة
+      - ./data/processed:/app/data/processed
+    restart: unless-stopped
